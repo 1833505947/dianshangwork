@@ -29,13 +29,13 @@ public class LoginActivity extends AppCompatActivity implements IloginView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         reg = findViewById(R.id.reg);
-        /*reg.setOnClickListener(new View.OnClickListener() {
+        reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this, RegActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
         edname = findViewById(R.id.name);
         edpwd = findViewById(R.id.pwd);
         initData();
